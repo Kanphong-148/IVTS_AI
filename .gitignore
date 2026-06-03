@@ -1,0 +1,15 @@
+.env
+.env.*
+
+node_modules/
+dist/
+coverage/
+frontend-vue/tests/e2e/reports/
+.cache/
+*.log
+backend-node/backups/
+.DS_Store
+car_dataset/
+car_model_result/
+*.pt
+runs/

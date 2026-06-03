@@ -1,0 +1,8 @@
+# กำหนด Path (เนื่องจากเราจะรันใน Docker ต้องอิง Path ของฝั่ง Docker ครับ)
+path: /usr/src/app/car_dataset
+train: train/images
+val: val/images
+
+# กำหนดจำนวนรุ่นรถและชื่อรุ่น (สมมุติว่าแยก 3 รุ่น)
+nc: 3
+names: ['Civic', 'Altis', 'Yaris']
